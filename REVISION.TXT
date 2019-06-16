@@ -1,0 +1,13 @@
+﻿28-Jun,2018
+    1. Add public construction function MagicRs232toBt() with parameter - connectorName, 
+       for specify the name of RS232toBluetooth connectorName(Won't connect unmatched connector)
+    2. Add public method "public int read(byte []readData, int expectLength)", to pass Expect Length from caller, 
+       the Expect Length can't be more than the length of byte array readData[]
+2018-06-28
+1. 增加带参数的构造函数public MagicRs232toBt(String connenctorName)，用于指定连接器的蓝牙名称，如果名称不符，不连接设备。
+2. 增加公共方法public int read(byte []readData, int expectLength)，用于传递期望收到的数据长度。该长度不允许大于readData数组的长度。
+
+29-May,2018
+    Magic Rs232 to Bluetooth Connector aar Library, Init Version.
+2019-05-29
+    串口-蓝牙转接器的aar库，初始版本。
